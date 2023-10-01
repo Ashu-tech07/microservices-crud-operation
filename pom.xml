@@ -11,7 +11,7 @@
 	<groupId>com.crudoperation</groupId>
 	<artifactId>crudOperation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>crudOperation</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -51,6 +51,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>microservice-crud-operation</finalName>
 	</build>
 
 </project>
